@@ -54,7 +54,7 @@ func main() {
 }
 
 func maxGold(mine [][]int) int {
-	maxFromPoint := makeMultiSlice(len(mine), len(mine[0]))
+	maFromPoint := makeMultiSlice(len(mine), len(mine[0]))
 	// Initialise last column
 	for i := 0; i < len(mine); i++ {
 		maxFromPoint[i][len(mine[0])-1] = mine[i][len(mine[0])-1]
